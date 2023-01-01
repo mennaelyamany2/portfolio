@@ -14,3 +14,10 @@ function hundleMenu(){
 
 
 }
+
+
+window.onscroll = () => {
+	menu.classList.remove('is-active');
+	action.classList.remove('is-active');
+};
+
